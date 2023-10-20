@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS Document */
+/****Global Sytles****/
+html, 
+body{
+	margin:0px;
+	background: url(../img/symphony.png) repeat;
+	text-align:center;
+	font-family: 'Montserrat', sans-serif;
+		color:DimGray
+}
+
+/****header Styles****/
+#wrapper{
+	margin-top: 150px;
+}
+
+.name h1{
+	color:tomato;
+	margin-bottom:0px;
+	border:5px solid tomato;
+	padding:20px;
+	display:inline;
+}
+/****Main Styles****/
+.title h2{
+	margin-top: 40px;
+	color:Salmon;
+}
+
+.phone, a{
+	color:DarkSeaGreen;
+	text-decoration:none;
+}
+
+.linebreak{
+	border: 1px solid gray;
+	width: 50%;
+	margin: 30px auto;
+}
+.mission{
+	font-style: italic;
+	font-size: 20px;
+	margin-top: 40px;
+	line-height: 30px;
+	
+}
